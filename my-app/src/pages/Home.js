@@ -1,11 +1,17 @@
 import React from 'react';
-import Header from '../compenents/Header';
 
+import Banner from '../compenents/Banner';
+
+
+//import Footer from '../compenents/Footer';
 const Home = () => {
     return (
-        <div>
-           <Header/>
-        </div>
+        <Banner/>
+            
+          
+           
+           
+        
     );
 };
 

@@ -4,16 +4,19 @@ import Home from './pages/Home';
 import FicheLogement from './pages/FicheLogement';
 import NotFound from './pages/NotFound';
 import About from './pages/About';
-import './App.css';
+import Footer from './compenents/Footer';
 
+import './App.css';
+import Header from './compenents/Header';
 function App() {
   return (
     <div className="App">
     
      <BrowserRouter>
+     <Header/>
       <Routes>
         <Route
-         path = "*" element = {<Home/>} />
+         path = "/" element = {<Home/>} />
           
        
       
@@ -22,6 +25,7 @@ function App() {
         <Route path = "/About" element = {<About/>}/>
         <Route path = "/NotFound" element = {<NotFound/>}/>
       </Routes>
+      <Footer/>
      </BrowserRouter>
     </div>
   );
