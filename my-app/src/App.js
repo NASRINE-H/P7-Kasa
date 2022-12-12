@@ -23,7 +23,7 @@ function App() {
       
          <Route path = "/FicheLogement" element={<FicheLogement/>} />
         <Route path = "/About" element = {<About/>}/>
-        <Route path = "/NotFound" element = {<NotFound/>}/>
+        <Route path = "*" element = {<NotFound/>}/>
       </Routes>
       <Footer/>
      </BrowserRouter>
