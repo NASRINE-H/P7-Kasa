@@ -9,7 +9,7 @@ const NotFound = () => {
             </div>
                 <p className='Error-p'>Oups! La page que vous demandez n'existe pas.</p>
 
-                <Link className='Error-Link' to="/">
+                <Link className='Error-Link' to={"/"}>
                 Retourner sur la page d’accueil
              </Link>
         

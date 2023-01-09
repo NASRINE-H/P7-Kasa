@@ -1,5 +1,6 @@
     body {
         width: 100%;
+        margin-left: 100px;
     }
     
     nav {
@@ -265,4 +266,34 @@
         align-items: flex-end;
         text-decoration-line: underline;
         color: #FF6060;
+    }
+    /**********************fiche logement*********************************/
+    
+    .slider {
+        width: 100%;
+        height: auto;
+    }
+    
+    .vectorLeft {
+        position: absolute;
+        left: 15%;
+        top: 55%;
+        border: none;
+        background-color: transparent;
+    }
+    
+    .vectorRight {
+        position: absolute;
+        left: 90%;
+        top: 55%;
+        border: none;
+        background-color: transparent;
+    }
+    
+    .slider-image {
+        width: 1260px;
+        height: 415px;
+        margin-top: 180px;
+        margin-left: 100px;
+        border-radius: 25px;
     }

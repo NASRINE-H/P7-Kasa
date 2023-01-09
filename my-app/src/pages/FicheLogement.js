@@ -1,11 +1,11 @@
 import React from 'react';
+import SlideShow from '../compenents/Slideshow';
 
 const FicheLogement = () => {
-    return ( <
-        div >
-        <
-        h1 > fichelogement < /h1>  <
-        /div>
+    return (
+        <div>
+           <SlideShow/> 
+        </div>
     );
 };
 

@@ -21,7 +21,7 @@ function App() {
        
       
       
-         <Route path = "/FicheLogement" element={<FicheLogement/>} />
+         <Route path = "/FicheLogement/:id" element={<FicheLogement/>} />
         <Route path = "/About" element = {<About/>}/>
         <Route path = "*" element = {<NotFound/>}/>
       </Routes>
