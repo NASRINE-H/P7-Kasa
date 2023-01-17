@@ -1,6 +1,8 @@
     body {
         width: 100%;
         margin-left: 100px;
+        font-family: 'Montserrat';
+        font-style: normal;
     }
     
     nav {
@@ -296,4 +298,48 @@
         margin-top: 180px;
         margin-left: 100px;
         border-radius: 25px;
+    }
+    
+    .logementInfo {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .titleInfo {
+        display: flex;
+        margin-left: 100px;
+        font-weight: 500;
+        align-items: flex-end;
+        color: #FF6060;
+    }
+    
+    .locInfo {
+        font-size: 18px;
+        width: auto;
+        height: 26px;
+        line-height: 25.67px;
+        margin-top: -14px;
+        margin-left: 110px;
+        color: #FF6060;
+    }
+    
+    .tags {
+        display: flex;
+        width: 30%;
+        color: #FFFFFF;
+        border-radius: 10px;
+        margin-left: 85px;
+    }
+    
+    .min-tag {
+        background-color: #FF6060;
+        border-radius: 10px;
+        text-align: center;
+        width: 100px;
+        height: 25px;
+        font-size: 14px;
+        line-height: 22px;
+        margin-left: 10px;
     }
