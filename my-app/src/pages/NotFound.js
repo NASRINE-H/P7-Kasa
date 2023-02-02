@@ -5,7 +5,7 @@ const NotFound = () => {
     return (
         <div className='NotFound'>
             <div className='Error-img'>
-            <img src={images} alt=''></img>
+            <img className='Error' src={images} alt=''></img>
             </div>
                 <p className='Error-p'>Oups! La page que vous demandez n'existe pas.</p>
 

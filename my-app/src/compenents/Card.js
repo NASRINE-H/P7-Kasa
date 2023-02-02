@@ -11,17 +11,14 @@ console.log(products)
      {products.map((product) => {
         console.log(product)
         return(
-        
-        <div key={product.id} className='Card'>
-<Link to={`/FicheLogement/${product.id}`} key={product.id}>
+         <div key={product.id} className='Card'>
+      <Link to={`/FicheLogement/${product.id}`} key={product.id}>
         <img className='Card-img' src={product.cover} alt=''></img> 
         <h2 className='Card-titre'>{product.title}</h2>
-        </Link>
+       </Link>
        </div>
      )
-
-          
-}) }
+   }) }
       </div>
     )
  }

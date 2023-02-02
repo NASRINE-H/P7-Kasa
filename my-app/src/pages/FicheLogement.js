@@ -13,6 +13,9 @@ const FicheLogement = () => {
 
     const lodgementId = apiData.find((item) => item.id === id);
     if (!lodgementId) {
+      /**
+       * je dois utiliser use Navigate c'est pas window
+       */
         window.location.href = "/404";
       } else {
     return (

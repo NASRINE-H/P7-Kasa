@@ -8,12 +8,16 @@ const Collapse = ({ title, content }) => {
         <div className='section-collap'>
           <div className='title-icon'> 
            <div className='Collap-title'> {title}</div>
-           <img src={imageIcon} alt='' className='Collap-iconOpen'onClick={() => setOpen(false)}></img>
+            <img src={imageIcon} alt='' className='Collap-iconOpen'onClick={() => setOpen(false)}></img> 
+           
            </div>
-           <div className='cadre-content'>
+            <div className='cadre-content'>
               <div className='Collap-content'>{content}</div>
-           </div>
-        </div>
+           </div> 
+           
+        
+      </div>
+        
     ) : (
         <div className='section-collap'>
             <div className='title-icon'>

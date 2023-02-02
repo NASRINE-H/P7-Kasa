@@ -15,13 +15,8 @@ function App() {
      <BrowserRouter>
      <Header />
       <Routes>
-        <Route
-         path = "/" element = {<Home/>} />
-          
-       
-      
-      
-         <Route path = "/FicheLogement/:id" element={<FicheLogement/>} />
+        <Route path = "/" element = {<Home/>} />
+        <Route path = "/FicheLogement/:id" element={<FicheLogement/>} />
         <Route path = "/About" element = {<About/>}/>
         <Route path = "*" element = {<NotFound/>}/>
       </Routes>

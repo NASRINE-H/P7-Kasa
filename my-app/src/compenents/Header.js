@@ -8,7 +8,7 @@ const Header = () => {
         
         <header className='Header'>
             {/* on a met {images} parceque on l' a  porté du coup le code va appliqué l'image choisi */ }
-            <img src={images}  alt='kasa'/>
+           <div className='Logo'><img src={images}  alt='kasa'/></div> 
             <nav className='nav'>
              <Link className='nav_home' to="/">
                 Accueil

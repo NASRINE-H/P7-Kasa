@@ -1,391 +1,437 @@
-    body {
-        width: 100%;
-        margin-left: 100px;
-        font-family: 'Montserrat';
-        font-style: normal;
-    }
-    
-    nav {
-        position: absolute;
-        left: 75.08%;
-    }
-    
-    .nav_home,
-    .nav_about {
-        position: absolute;
-        bottom: 25%;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 142.6%;
-        /* or 34px */
-        display: flex;
-        align-items: flex-end;
-        color: #FF6060;
-    }
-    
-    .nav_home {
-        text-align: right;
-    }
-    
-    .nav_about {
-        right: 100px;
-        left: 120px;
-        text-decoration: none;
-    }
-    
-    .Footer {
-        position: relative;
-        height: 200px;
-        width: 100%;
-        top: 9000px;
-        background: #000000;
-        margin-bottom: 0px;
-    }
-    
-    .FooterLogo {
-        position: absolute;
-        left: 44.87%;
-        right: 52.6%;
-        top: 29.67%;
-        bottom: 51.46%;
-    }
-    
-    .FooterText {
-        position: absolute;
-        right: 690px;
-        top: 48.33%;
-        bottom: 29.67%;
-        margin: 4px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 142.6%;
-        /* or 17px */
-        display: flex;
-        align-items: flex-end;
-        text-align: center;
-        color: #FFFFFF;
-    }
-    
-    .banner {
-        position: absolute;
-        left: 25.9%;
-        right: 25.14%;
-        top: 35%;
-        bottom: 69.04%;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 48px;
-        line-height: 142.6%;
-        /* or 68px */
-        display: flex;
-        align-items: flex-end;
-    }
-    
-    .banner-img {
-        background-image: url('./compenents/Images/banner.png');
-        border-radius: 25px;
-        position: absolute;
-        width: 1240px;
-        height: 223px;
-        left: 100px;
-        top: 171px;
-    }
-    
-    .Card {
-        width: 340px;
-        height: 340px;
-        border-radius: 10px;
-        margin: 20px;
-        justify-content: flex-start;
-    }
-    
-    .Card-img {
-        width: 340px;
-        height: 340px;
-        margin-top: 20px;
-        border-radius: 10px;
-    }
-    
-    .Gallery {
-        position: absolute;
-        width: 1240px;
-        height: auto;
-        left: 100px;
-        top: 437px;
-        background: #F7F7F7;
-        border-radius: 25px;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-    
-    .Card-titre {
-        position: relative;
-        top: -10%;
-        height: 0%;
-        left: 2%;
-        right: 0%;
-        line-height: 142.6%;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 142.6%;
-        display: flex;
-        align-items: flex-end;
-        color: #FFFFFF;
-    }
-    
-    .Banner-imgAbout {
-        background-image: url('./compenents/Images/BannerAbout.png');
-        border-radius: 25px;
-        position: absolute;
-        width: 1240px;
-        height: 223px;
-        left: 100px;
-        top: 171px;
-    }
-    
-    .section-collap {
-        width: 70%;
-        height: 47px;
-        left: 0px;
-        top: 0px;
-        background: #FF6060;
-        border-radius: 5px;
-        border-radius: 5px;
-        margin: 170px;
-    }
-    
-    .title-icon {
-        width: 100%;
-        height: 47px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background: #FF6060;
-        border-radius: 5px;
-        padding: 2px;
-    }
-    
-    .Collap-title {
-        height: 34px;
-        width: 100px;
-        margin-left: 14px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 142.6%;
-        display: flex;
-        align-items: center;
-        color: #FFFFFF;
-    }
-    
-    .Collap-icon {
-        margin-right: 10px;
-        transform: rotate(180deg);
-    }
-    
-    .Collap-iconOpen {
-        transform: rotate(0deg);
-        margin-right: 10px;
-    }
-    
-    .Collap-content {
-        height: auto;
-        width: 100%;
-        left: 18px;
-        top: 74px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 142.6%;
-        color: #FF6060;
-    }
-    
-    .cadre-content {
-        height: auto;
-        width: 97%;
-        background: #F7F7F7;
-        border-radius: 5px;
-        padding: 9px;
-    }
-    
-    .About-collap {
-        margin-top: 450px;
-        width: 70%;
-        margin-left: 12%;
-    }
-    
-    .Collap1-content {
-        margin-bottom: 0px;
-    }
-    /*******NotFound*****************/
-    
-    .Error-img {
-        position: absolute;
-        width: 597px;
-        height: 263px;
-        left: 432px;
-        top: 277px;
-    }
-    
-    .Error-p {
-        position: absolute;
-        left: 25.49%;
-        right: 18.96%;
-        top: 600px;
-        bottom: 35.84%;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 36px;
-        line-height: 142.6%;
-        /* or 51px */
-        display: flex;
-        align-items: flex-end;
-        color: #FF6060;
-    }
-    
-    .Error-Link {
-        position: absolute;
-        right: 45.14%;
-        top: 839px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 142.6%;
-        /* identical to box height, or 26px */
-        display: flex;
-        align-items: flex-end;
-        text-decoration-line: underline;
-        color: #FF6060;
-    }
-    /**********************fiche logement*********************************/
-    
-    .slider {
-        width: 100%;
-        height: auto;
-    }
-    
-    .vectorLeft {
-        position: absolute;
-        left: 15%;
-        top: 55%;
-        border: none;
-        background-color: transparent;
-    }
-    
-    .vectorRight {
-        position: absolute;
-        left: 90%;
-        top: 55%;
-        border: none;
-        background-color: transparent;
-    }
-    
-    .slider-image {
-        width: 1260px;
-        height: 415px;
-        margin-top: 180px;
-        margin-left: 100px;
-        border-radius: 25px;
-    }
-    
-    .logementInfo {
-        margin-top: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    
-    .titleInfo {
-        display: flex;
-        margin-left: 100px;
-        font-weight: 500;
-        align-items: flex-end;
-        color: #FF6060;
-    }
-    
-    .locInfo {
-        font-size: 18px;
-        width: auto;
-        height: 26px;
-        line-height: 25.67px;
-        margin-top: -14px;
-        margin-left: 110px;
-        color: #FF6060;
-    }
-    
-    .tags {
-        display: flex;
-        width: 30%;
-        color: #FFFFFF;
-        border-radius: 10px;
-        margin-left: 85px;
-        margin-top: 2%;
-    }
-    
-    .min-tag {
-        background-color: #FF6060;
-        border-radius: 10px;
-        text-align: center;
-        width: 100px;
-        height: 25px;
-        font-size: 14px;
-        line-height: 22px;
-        margin-left: 10px;
-    }
-    
-    .name {
-        position: absolute;
-        width: 93px;
-        height: 52px;
-        left: 1300px;
-        top: 680px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 142.6%;
-        /* or 26px */
-        display: flex;
-        align-items: flex-end;
-        text-align: right;
-        color: #FF6060;
-    }
-    
-    .host {
-        width: 64px;
-        height: 64px;
-        left: 1280px;
-        margin-left: 20px;
-        background: #C4C4C4;
-    }
-    
-    .Etoiles {
-        margin-left: 79%;
-        margin-top: -3.5%;
-    }
-    
-    .descriptionLog {
-        width: 55%;
-        margin-top: -5%;
-        margin-left: -5%;
-        /* identical to box height, or 26px */
-        color: #FFFFFF;
-    }
-    
-    .collapsEquipement {
-        width: 55%;
-        margin-left: 40%;
-        margin-top: -14.3%;
-    }
+                body {
+                    /*width: 92%;
+        height: 100%;*/
+                    width: 1200px;
+                    height: 1095px;
+                    left: 200px;
+                    top: 171px;
+                }
+                
+                .Logo {
+                    position: absolute;
+                    left: 0%;
+                    right: 83.04%;
+                    top: 7%;
+                    bottom: 0%;
+                }
+                
+                .nav {
+                    position: absolute;
+                    right: 50%;
+                    top: 15%;
+                    bottom: 100%;
+                }
+                
+                .nav_home,
+                .nav_about {
+                    position: absolute;
+                    bottom: 70%;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 142.6%;
+                    /* or 34px */
+                    display: flex;
+                    align-items: flex-end;
+                    color: #FF6060;
+                }
+                
+                .nav_home {
+                    text-align: right;
+                }
+                
+                .nav_about {
+                    right: 100px;
+                    left: 120px;
+                    text-decoration: none;
+                }
+                
+                .Footer {
+                    position: relative;
+                    height: 200px;
+                    width: 125%;
+                    top: 3200px;
+                    background: #000000;
+                    margin-bottom: 0px;
+                }
+                
+                .FooterLogo {
+                    position: absolute;
+                    left: 44.87%;
+                    right: 52.6%;
+                    top: 29.67%;
+                    bottom: 51.46%;
+                }
+                
+                .FooterText {
+                    position: absolute;
+                    right: 690px;
+                    top: 48.33%;
+                    bottom: 29.67%;
+                    margin: 4px;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 142.6%;
+                    /* or 17px */
+                    display: flex;
+                    align-items: flex-end;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+                
+                .banner {
+                    position: absolute;
+                    left: 25.9%;
+                    right: 25.14%;
+                    top: 35%;
+                    bottom: 69.04%;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 48px;
+                    line-height: 142.6%;
+                    /* or 68px */
+                    display: flex;
+                    align-items: flex-end;
+                }
+                
+                .banner-img {
+                    background-image: url('./compenents/Images/banner.png');
+                    border-radius: 25px;
+                    position: absolute;
+                    width: 1240px;
+                    height: 223px;
+                    left: 100px;
+                    top: 171px;
+                }
+                
+                .Card {
+                    width: 340px;
+                    height: 340px;
+                    border-radius: 10px;
+                    margin: 20px;
+                    justify-content: flex-start;
+                }
+                
+                a {
+                    text-decoration: none;
+                }
+                
+                .Card-img {
+                    width: 340px;
+                    height: 340px;
+                    margin-top: 20px;
+                    border-radius: 10px;
+                }
+                
+                .Gallery {
+                    position: absolute;
+                    width: 1350px;
+                    height: auto;
+                    padding-bottom: 0px;
+                    left: 38px;
+                    top: 437px;
+                    display: flex;
+                    justify-content: space-around;
+                    flex-wrap: wrap;
+                }
+                
+                .Card-titre {
+                    position: relative;
+                    top: -10%;
+                    height: 0%;
+                    left: 2%;
+                    right: 0%;
+                    line-height: 142.6%;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 142.6%;
+                    display: flex;
+                    align-items: flex-end;
+                    color: #FFFFFF;
+                }
+                
+                .Banner-imgAbout {
+                    background-image: url('./compenents/Images/BannerAbout.png');
+                    border-radius: 25px;
+                    position: absolute;
+                    width: 1240px;
+                    height: 223px;
+                    left: 100px;
+                    top: 171px;
+                }
+                
+                .section-collap {
+                    width: 70%;
+                    height: 47px;
+                    left: 0px;
+                    top: 0px;
+                    background: #FF6060;
+                    border-radius: 5px;
+                    border-radius: 5px;
+                    margin: 170px;
+                }
+                
+                .title-icon {
+                    width: 100%;
+                    height: 47px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    background: #FF6060;
+                    border-radius: 5px;
+                    padding: 2px;
+                }
+                
+                .Collap-title {
+                    height: 34px;
+                    width: 100px;
+                    margin-left: 14px;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 142.6%;
+                    display: flex;
+                    align-items: center;
+                    color: #FFFFFF;
+                }
+                
+                .Collap-icon {
+                    margin-right: 10px;
+                    transform: rotate(180deg);
+                }
+                
+                .Collap-iconOpen {
+                    transform: rotate(0deg);
+                    margin-right: 10px;
+                    /*border-spacing: 5px 1rem;*/
+                }
+                
+                .Collap-content {
+                    height: auto;
+                    width: 100%;
+                    left: 18px;
+                    top: 74px;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 142.6%;
+                    color: #FF6060;
+                }
+                
+                .cadre-content {
+                    height: auto;
+                    width: 97%;
+                    background: #F7F7F7;
+                    border-radius: 5px;
+                    padding: 9px;
+                }
+                
+                .About-collap {
+                    margin-top: 450px;
+                    width: 70%;
+                    margin-left: 12%;
+                }
+                
+                .Collap1-content {
+                    margin-bottom: 0px;
+                }
+                /*******NotFound*****************/
+                
+                .Error-img {
+                    position: absolute;
+                    width: 597px;
+                    height: 263px;
+                    left: 432px;
+                    top: 277px;
+                }
+                
+                .Error-p {
+                    position: absolute;
+                    left: 25.49%;
+                    right: 18.96%;
+                    top: 600px;
+                    bottom: 35.84%;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 36px;
+                    line-height: 142.6%;
+                    /* or 51px */
+                    display: flex;
+                    align-items: flex-end;
+                    color: #FF6060;
+                }
+                
+                .Error-Link {
+                    position: absolute;
+                    right: 45.14%;
+                    top: 839px;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 142.6%;
+                    /* identical to box height, or 26px */
+                    display: flex;
+                    align-items: flex-end;
+                    text-decoration-line: underline;
+                    color: #FF6060;
+                }
+                /**********************fiche logement*********************************/
+                
+                .slider {
+                    width: 100%;
+                    height: auto;
+                }
+                
+                .vectorLeft {
+                    position: absolute;
+                    left: 15%;
+                    top: 55%;
+                    border: none;
+                    background-color: transparent;
+                }
+                
+                .vectorRight {
+                    position: absolute;
+                    left: 90%;
+                    top: 55%;
+                    border: none;
+                    background-color: transparent;
+                }
+                
+                .slider-image {
+                    width: 1260px;
+                    height: 415px;
+                    margin-top: 180px;
+                    margin-left: 100px;
+                    border-radius: 25px;
+                }
+                
+                .logementInfo {
+                    margin-top: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+                
+                .titleInfo {
+                    display: flex;
+                    margin-left: 100px;
+                    font-weight: 500;
+                    align-items: flex-end;
+                    color: #FF6060;
+                }
+                
+                .locInfo {
+                    font-size: 18px;
+                    width: auto;
+                    height: 26px;
+                    line-height: 25.67px;
+                    margin-top: -14px;
+                    margin-left: 110px;
+                    color: #FF6060;
+                }
+                
+                .tags {
+                    display: flex;
+                    width: 30%;
+                    color: #FFFFFF;
+                    border-radius: 10px;
+                    margin-left: 85px;
+                    margin-top: 2%;
+                }
+                
+                .min-tag {
+                    background-color: #FF6060;
+                    border-radius: 10px;
+                    text-align: center;
+                    width: 100px;
+                    height: 25px;
+                    font-size: 14px;
+                    line-height: 22px;
+                    margin-left: 10px;
+                }
+                
+                .name {
+                    position: absolute;
+                    width: 93px;
+                    height: 52px;
+                    left: 1300px;
+                    top: 680px;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 142.6%;
+                    /* or 26px */
+                    display: flex;
+                    align-items: flex-end;
+                    text-align: right;
+                    color: #FF6060;
+                }
+                
+                .host {
+                    width: 64px;
+                    height: 64px;
+                    left: 1280px;
+                    margin-left: 20px;
+                    background: #C4C4C4;
+                }
+                
+                .Etoiles {
+                    margin-left: 79%;
+                    margin-top: -3.5%;
+                }
+                
+                .descriptionLog {
+                    width: 55%;
+                    margin-top: -5%;
+                    margin-left: -5%;
+                    /* identical to box height, or 26px */
+                    color: #FFFFFF;
+                }
+                
+                .collapsEquipement {
+                    width: 55%;
+                    margin-left: 40%;
+                    margin-top: -14.3%;
+                }
+                /*************responsive**********/
+                
+                @media screen and (max-width: 699px) {
+                    .body {
+                        height: 938px;
+                        width: 200px;
+                        left: 20px;
+                        top: 83px;
+                    }
+                    .Logo img {
+                        width: 200px;
+                        height: 50px;
+                        left: -19%;
+                    }
+                    .nav {
+                        position: absolute;
+                        left: 210%;
+                    }
+                    .nav_about {
+                        position: absolute;
+                        width: 10px;
+                    }
+                    .banner-img {
+                        width: 230%;
+                        margin-left: 15px;
+                    }
+                    .banner {
+                        font-size: 40px;
+                        width: 400px;
+                    }
+                }
